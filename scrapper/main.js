@@ -68,9 +68,7 @@ async function main(){
                 let lines = $(pb).find('tr').toArray()
                 let machines = $(lines[pbindex+1]).find('td > div').toArray()
                 let firstMachine = machines.shift()
-                let machineName = $(firstMachine).find('a')[0].attributes.title.value.trim().split(' ')
-                machineName.pop()
-                machineName = machineName.join(' ')
+                machineName = $(firstMachine).find('a')[0].attributes.title.value.trim().replace('1',"").trim()
             }
 
             
