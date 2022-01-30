@@ -1,0 +1,30 @@
+#UI
+
+
+# dependencies
+/factorio-factory-creator/node_modules
+/factorio-factory-creator/.pnp
+/factorio-factory-creator/.pnp.js
+
+# testing
+/factorio-factory-creator/coverage
+
+# production
+/factorio-factory-creator/build
+
+# misc
+/factorio-factory-creator/.DS_Store
+/factorio-factory-creator/.env.local
+/factorio-factory-creator/.env.development.local
+/factorio-factory-creator/.env.test.local
+/factorio-factory-creator/.env.production.local
+
+/factorio-factory-creator/npm-debug.log*
+/factorio-factory-creator/yarn-debug.log*
+/factorio-factory-creator/yarn-error.log*
+
+
+
+#Scrapper
+
+/scrapper/node_modules
