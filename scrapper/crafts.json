@@ -1,0 +1,1399 @@
+[
+    {
+        "item": "Wooden chest",
+        "count": 1,
+        "id": "Wooden_chest",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Wood",
+                "count": 2,
+                "id": "Wood"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Iron chest",
+        "count": 1,
+        "id": "Iron_chest",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Iron plate",
+                "count": 8,
+                "id": "Iron_plate"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Steel chest",
+        "count": 1,
+        "id": "Steel_chest",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Steel plate",
+                "count": 8,
+                "id": "Steel_plate"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Storage tank",
+        "count": 1,
+        "id": "Storage_tank",
+        "time": 3,
+        "needed": [
+            {
+                "item": "Iron plate",
+                "count": 20,
+                "id": "Iron_plate"
+            },
+            {
+                "item": "Steel plate",
+                "count": 5,
+                "id": "Steel_plate"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Transport belt",
+        "count": 2,
+        "id": "Transport_belt",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Iron gear wheel",
+                "count": 1,
+                "id": "Iron_gear_wheel"
+            },
+            {
+                "item": "Iron plate",
+                "count": 1,
+                "id": "Iron_plate"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Fast transport belt",
+        "count": 1,
+        "id": "Fast_transport_belt",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Iron gear wheel",
+                "count": 5,
+                "id": "Iron_gear_wheel"
+            },
+            {
+                "item": "Transport belt",
+                "count": 1,
+                "id": "Transport_belt"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Express transport belt",
+        "count": 1,
+        "id": "Express_transport_belt",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Fast transport belt",
+                "count": 1,
+                "id": "Fast_transport_belt"
+            },
+            {
+                "item": "Iron gear wheel",
+                "count": 10,
+                "id": "Iron_gear_wheel"
+            },
+            {
+                "item": "Lubricant",
+                "count": 20,
+                "id": "Lubricant"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Underground belt",
+        "count": 2,
+        "id": "Underground_belt",
+        "time": 1,
+        "needed": [
+            {
+                "item": "Iron plate",
+                "count": 10,
+                "id": "Iron_plate"
+            },
+            {
+                "item": "Transport belt",
+                "count": 5,
+                "id": "Transport_belt"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Fast underground belt",
+        "count": 2,
+        "id": "Fast_underground_belt",
+        "time": 2,
+        "needed": [
+            {
+                "item": "Iron gear wheel",
+                "count": 40,
+                "id": "Iron_gear_wheel"
+            },
+            {
+                "item": "Underground belt",
+                "count": 2,
+                "id": "Underground_belt"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Express underground belt",
+        "count": 2,
+        "id": "Express_underground_belt",
+        "time": 2,
+        "needed": [
+            {
+                "item": "Fast underground belt",
+                "count": 2,
+                "id": "Fast_underground_belt"
+            },
+            {
+                "item": "Iron gear wheel",
+                "count": 80,
+                "id": "Iron_gear_wheel"
+            },
+            {
+                "item": "Lubricant",
+                "count": 40,
+                "id": "Lubricant"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Splitter",
+        "count": 1,
+        "id": "Splitter",
+        "time": 1,
+        "needed": [
+            {
+                "item": "Electronic circuit",
+                "count": 5,
+                "id": "Electronic_circuit"
+            },
+            {
+                "item": "Iron plate",
+                "count": 5,
+                "id": "Iron_plate"
+            },
+            {
+                "item": "Transport belt",
+                "count": 4,
+                "id": "Transport_belt"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Fast splitter",
+        "count": 1,
+        "id": "Fast_splitter",
+        "time": 2,
+        "needed": [
+            {
+                "item": "Electronic circuit",
+                "count": 10,
+                "id": "Electronic_circuit"
+            },
+            {
+                "item": "Iron gear wheel",
+                "count": 10,
+                "id": "Iron_gear_wheel"
+            },
+            {
+                "item": "Splitter",
+                "count": 1,
+                "id": "Splitter"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Express splitter",
+        "count": 1,
+        "id": "Express_splitter",
+        "time": 2,
+        "needed": [
+            {
+                "item": "Advanced circuit",
+                "count": 10,
+                "id": "Advanced_circuit"
+            },
+            {
+                "item": "Fast splitter",
+                "count": 1,
+                "id": "Fast_splitter"
+            },
+            {
+                "item": "Iron gear wheel",
+                "count": 10,
+                "id": "Iron_gear_wheel"
+            },
+            {
+                "item": "Lubricant",
+                "count": 80,
+                "id": "Lubricant"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Burner inserter",
+        "count": 1,
+        "id": "Burner_inserter",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Iron gear wheel",
+                "count": 1,
+                "id": "Iron_gear_wheel"
+            },
+            {
+                "item": "Iron plate",
+                "count": 1,
+                "id": "Iron_plate"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Inserter",
+        "count": 1,
+        "id": "Inserter",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Electronic circuit",
+                "count": 1,
+                "id": "Electronic_circuit"
+            },
+            {
+                "item": "Iron gear wheel",
+                "count": 1,
+                "id": "Iron_gear_wheel"
+            },
+            {
+                "item": "Iron plate",
+                "count": 1,
+                "id": "Iron_plate"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Long-handed inserter",
+        "count": 1,
+        "id": "Long-handed_inserter",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Inserter",
+                "count": 1,
+                "id": "Inserter"
+            },
+            {
+                "item": "Iron gear wheel",
+                "count": 1,
+                "id": "Iron_gear_wheel"
+            },
+            {
+                "item": "Iron plate",
+                "count": 1,
+                "id": "Iron_plate"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Fast inserter",
+        "count": 1,
+        "id": "Fast_inserter",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Electronic circuit",
+                "count": 2,
+                "id": "Electronic_circuit"
+            },
+            {
+                "item": "Inserter",
+                "count": 1,
+                "id": "Inserter"
+            },
+            {
+                "item": "Iron plate",
+                "count": 2,
+                "id": "Iron_plate"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Filter inserter",
+        "count": 1,
+        "id": "Filter_inserter",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Electronic circuit",
+                "count": 4,
+                "id": "Electronic_circuit"
+            },
+            {
+                "item": "Fast inserter",
+                "count": 1,
+                "id": "Fast_inserter"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Stack inserter",
+        "count": 1,
+        "id": "Stack_inserter",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Advanced circuit",
+                "count": 1,
+                "id": "Advanced_circuit"
+            },
+            {
+                "item": "Electronic circuit",
+                "count": 15,
+                "id": "Electronic_circuit"
+            },
+            {
+                "item": "Fast inserter",
+                "count": 1,
+                "id": "Fast_inserter"
+            },
+            {
+                "item": "Iron gear wheel",
+                "count": 15,
+                "id": "Iron_gear_wheel"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Stack filter inserter",
+        "count": 1,
+        "id": "Stack_filter_inserter",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Electronic circuit",
+                "count": 5,
+                "id": "Electronic_circuit"
+            },
+            {
+                "item": "Stack inserter",
+                "count": 1,
+                "id": "Stack_inserter"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Small electric pole",
+        "count": 2,
+        "id": "Small_electric_pole",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Copper cable",
+                "count": 2,
+                "id": "Copper_cable"
+            },
+            {
+                "item": "Wood",
+                "count": 1,
+                "id": "Wood"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Medium electric pole",
+        "count": 1,
+        "id": "Medium_electric_pole",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Copper plate",
+                "count": 2,
+                "id": "Copper_plate"
+            },
+            {
+                "item": "Iron stick",
+                "count": 4,
+                "id": "Iron_stick"
+            },
+            {
+                "item": "Steel plate",
+                "count": 2,
+                "id": "Steel_plate"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Big electric pole",
+        "count": 1,
+        "id": "Big_electric_pole",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Copper plate",
+                "count": 5,
+                "id": "Copper_plate"
+            },
+            {
+                "item": "Iron stick",
+                "count": 8,
+                "id": "Iron_stick"
+            },
+            {
+                "item": "Steel plate",
+                "count": 5,
+                "id": "Steel_plate"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Substation",
+        "count": 1,
+        "id": "Substation",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Advanced circuit",
+                "count": 5,
+                "id": "Advanced_circuit"
+            },
+            {
+                "item": "Copper plate",
+                "count": 5,
+                "id": "Copper_plate"
+            },
+            {
+                "item": "Steel plate",
+                "count": 10,
+                "id": "Steel_plate"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Pipe",
+        "count": 1,
+        "id": "Pipe",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Iron plate",
+                "count": 1,
+                "id": "Iron_plate"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Pipe to ground",
+        "count": 2,
+        "id": "Pipe_to_ground",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Iron plate",
+                "count": 5,
+                "id": "Iron_plate"
+            },
+            {
+                "item": "Pipe",
+                "count": 10,
+                "id": "Pipe"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Pump",
+        "count": 1,
+        "id": "Pump",
+        "time": 2,
+        "needed": [
+            {
+                "item": "Engine unit",
+                "count": 1,
+                "id": "Engine_unit"
+            },
+            {
+                "item": "Pipe",
+                "count": 1,
+                "id": "Pipe"
+            },
+            {
+                "item": "Steel plate",
+                "count": 1,
+                "id": "Steel_plate"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Rail",
+        "count": 2,
+        "id": "Rail",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Iron stick",
+                "count": 1,
+                "id": "Iron_stick"
+            },
+            {
+                "item": "Steel plate",
+                "count": 1,
+                "id": "Steel_plate"
+            },
+            {
+                "item": "Stone",
+                "count": 1,
+                "id": "Stone"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Train stop",
+        "count": 1,
+        "id": "Train_stop",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Electronic circuit",
+                "count": 5,
+                "id": "Electronic_circuit"
+            },
+            {
+                "item": "Iron plate",
+                "count": 6,
+                "id": "Iron_plate"
+            },
+            {
+                "item": "Iron stick",
+                "count": 6,
+                "id": "Iron_stick"
+            },
+            {
+                "item": "Steel plate",
+                "count": 3,
+                "id": "Steel_plate"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Rail signal",
+        "count": 1,
+        "id": "Rail_signal",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Electronic circuit",
+                "count": 1,
+                "id": "Electronic_circuit"
+            },
+            {
+                "item": "Iron plate",
+                "count": 5,
+                "id": "Iron_plate"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Rail chain signal",
+        "count": 1,
+        "id": "Rail_chain_signal",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Electronic circuit",
+                "count": 1,
+                "id": "Electronic_circuit"
+            },
+            {
+                "item": "Iron plate",
+                "count": 5,
+                "id": "Iron_plate"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Locomotive",
+        "count": 1,
+        "id": "Locomotive",
+        "time": 4,
+        "needed": [
+            {
+                "item": "Electronic circuit",
+                "count": 10,
+                "id": "Electronic_circuit"
+            },
+            {
+                "item": "Engine unit",
+                "count": 20,
+                "id": "Engine_unit"
+            },
+            {
+                "item": "Steel plate",
+                "count": 30,
+                "id": "Steel_plate"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Cargo wagon",
+        "count": 1,
+        "id": "Cargo_wagon",
+        "time": 1,
+        "needed": [
+            {
+                "item": "Iron gear wheel",
+                "count": 10,
+                "id": "Iron_gear_wheel"
+            },
+            {
+                "item": "Iron plate",
+                "count": 20,
+                "id": "Iron_plate"
+            },
+            {
+                "item": "Steel plate",
+                "count": 20,
+                "id": "Steel_plate"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Fluid wagon",
+        "count": 1,
+        "id": "Fluid_wagon",
+        "time": 1.5,
+        "needed": [
+            {
+                "item": "Iron gear wheel",
+                "count": 10,
+                "id": "Iron_gear_wheel"
+            },
+            {
+                "item": "Pipe",
+                "count": 8,
+                "id": "Pipe"
+            },
+            {
+                "item": "Steel plate",
+                "count": 16,
+                "id": "Steel_plate"
+            },
+            {
+                "item": "Storage tank",
+                "count": 1,
+                "id": "Storage_tank"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Artillery wagon",
+        "count": 1,
+        "id": "Artillery_wagon",
+        "time": 4,
+        "needed": [
+            {
+                "item": "Advanced circuit",
+                "count": 20,
+                "id": "Advanced_circuit"
+            },
+            {
+                "item": "Engine unit",
+                "count": 64,
+                "id": "Engine_unit"
+            },
+            {
+                "item": "Iron gear wheel",
+                "count": 10,
+                "id": "Iron_gear_wheel"
+            },
+            {
+                "item": "Pipe",
+                "count": 16,
+                "id": "Pipe"
+            },
+            {
+                "item": "Steel plate",
+                "count": 40,
+                "id": "Steel_plate"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Car",
+        "count": 1,
+        "id": "Car",
+        "time": 2,
+        "needed": [
+            {
+                "item": "Engine unit",
+                "count": 8,
+                "id": "Engine_unit"
+            },
+            {
+                "item": "Iron plate",
+                "count": 20,
+                "id": "Iron_plate"
+            },
+            {
+                "item": "Steel plate",
+                "count": 5,
+                "id": "Steel_plate"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Tank",
+        "count": 1,
+        "id": "Tank",
+        "time": 5,
+        "needed": [
+            {
+                "item": "Advanced circuit",
+                "count": 10,
+                "id": "Advanced_circuit"
+            },
+            {
+                "item": "Engine unit",
+                "count": 32,
+                "id": "Engine_unit"
+            },
+            {
+                "item": "Iron gear wheel",
+                "count": 15,
+                "id": "Iron_gear_wheel"
+            },
+            {
+                "item": "Steel plate",
+                "count": 50,
+                "id": "Steel_plate"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Spidertron",
+        "count": 1,
+        "id": "Spidertron",
+        "time": 10,
+        "needed": [
+            {
+                "item": "Efficiency module 3",
+                "count": 2,
+                "id": "Efficiency_module_3"
+            },
+            {
+                "item": "Exoskeleton",
+                "count": 4,
+                "id": "Exoskeleton"
+            },
+            {
+                "item": "Portable fusion reactor",
+                "count": 2,
+                "id": "Portable_fusion_reactor"
+            },
+            {
+                "item": "Low density structure",
+                "count": 150,
+                "id": "Low_density_structure"
+            },
+            {
+                "item": "Radar",
+                "count": 2,
+                "id": "Radar"
+            },
+            {
+                "item": "Raw fish",
+                "count": 1,
+                "id": "Raw_fish"
+            },
+            {
+                "item": "Rocket control unit",
+                "count": 16,
+                "id": "Rocket_control_unit"
+            },
+            {
+                "item": "Rocket launcher",
+                "count": 4,
+                "id": "Rocket_launcher"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Spidertron remote",
+        "count": 1,
+        "id": "Spidertron_remote",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Radar",
+                "count": 1,
+                "id": "Radar"
+            },
+            {
+                "item": "Rocket control unit",
+                "count": 1,
+                "id": "Rocket_control_unit"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Logistic robot",
+        "count": 1,
+        "id": "Logistic_robot",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Advanced circuit",
+                "count": 2,
+                "id": "Advanced_circuit"
+            },
+            {
+                "item": "Flying robot frame",
+                "count": 1,
+                "id": "Flying_robot_frame"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Construction robot",
+        "count": 1,
+        "id": "Construction_robot",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Electronic circuit",
+                "count": 2,
+                "id": "Electronic_circuit"
+            },
+            {
+                "item": "Flying robot frame",
+                "count": 1,
+                "id": "Flying_robot_frame"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Active provider chest",
+        "count": 1,
+        "id": "Active_provider_chest",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Advanced circuit",
+                "count": 1,
+                "id": "Advanced_circuit"
+            },
+            {
+                "item": "Electronic circuit",
+                "count": 3,
+                "id": "Electronic_circuit"
+            },
+            {
+                "item": "Steel chest",
+                "count": 1,
+                "id": "Steel_chest"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Passive provider chest",
+        "count": 1,
+        "id": "Passive_provider_chest",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Advanced circuit",
+                "count": 1,
+                "id": "Advanced_circuit"
+            },
+            {
+                "item": "Electronic circuit",
+                "count": 3,
+                "id": "Electronic_circuit"
+            },
+            {
+                "item": "Steel chest",
+                "count": 1,
+                "id": "Steel_chest"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Storage chest",
+        "count": 1,
+        "id": "Storage_chest",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Advanced circuit",
+                "count": 1,
+                "id": "Advanced_circuit"
+            },
+            {
+                "item": "Electronic circuit",
+                "count": 3,
+                "id": "Electronic_circuit"
+            },
+            {
+                "item": "Steel chest",
+                "count": 1,
+                "id": "Steel_chest"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Buffer chest",
+        "count": 1,
+        "id": "Buffer_chest",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Advanced circuit",
+                "count": 1,
+                "id": "Advanced_circuit"
+            },
+            {
+                "item": "Electronic circuit",
+                "count": 3,
+                "id": "Electronic_circuit"
+            },
+            {
+                "item": "Steel chest",
+                "count": 1,
+                "id": "Steel_chest"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Requester chest",
+        "count": 1,
+        "id": "Requester_chest",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Advanced circuit",
+                "count": 1,
+                "id": "Advanced_circuit"
+            },
+            {
+                "item": "Electronic circuit",
+                "count": 3,
+                "id": "Electronic_circuit"
+            },
+            {
+                "item": "Steel chest",
+                "count": 1,
+                "id": "Steel_chest"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Roboport",
+        "count": 1,
+        "id": "Roboport",
+        "time": 5,
+        "needed": [
+            {
+                "item": "Advanced circuit",
+                "count": 45,
+                "id": "Advanced_circuit"
+            },
+            {
+                "item": "Iron gear wheel",
+                "count": 45,
+                "id": "Iron_gear_wheel"
+            },
+            {
+                "item": "Steel plate",
+                "count": 45,
+                "id": "Steel_plate"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Lamp",
+        "count": 1,
+        "id": "Lamp",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Copper cable",
+                "count": 3,
+                "id": "Copper_cable"
+            },
+            {
+                "item": "Electronic circuit",
+                "count": 1,
+                "id": "Electronic_circuit"
+            },
+            {
+                "item": "Iron plate",
+                "count": 1,
+                "id": "Iron_plate"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Red wire",
+        "count": 1,
+        "id": "Red_wire",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Copper cable",
+                "count": 1,
+                "id": "Copper_cable"
+            },
+            {
+                "item": "Electronic circuit",
+                "count": 1,
+                "id": "Electronic_circuit"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Green wire",
+        "count": 1,
+        "id": "Green_wire",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Copper cable",
+                "count": 1,
+                "id": "Copper_cable"
+            },
+            {
+                "item": "Electronic circuit",
+                "count": 1,
+                "id": "Electronic_circuit"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Arithmetic combinator",
+        "count": 1,
+        "id": "Arithmetic_combinator",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Copper cable",
+                "count": 5,
+                "id": "Copper_cable"
+            },
+            {
+                "item": "Electronic circuit",
+                "count": 5,
+                "id": "Electronic_circuit"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Decider combinator",
+        "count": 1,
+        "id": "Decider_combinator",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Copper cable",
+                "count": 5,
+                "id": "Copper_cable"
+            },
+            {
+                "item": "Electronic circuit",
+                "count": 5,
+                "id": "Electronic_circuit"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Constant combinator",
+        "count": 1,
+        "id": "Constant_combinator",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Copper cable",
+                "count": 5,
+                "id": "Copper_cable"
+            },
+            {
+                "item": "Electronic circuit",
+                "count": 2,
+                "id": "Electronic_circuit"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Power switch",
+        "count": 1,
+        "id": "Power_switch",
+        "time": 2,
+        "needed": [
+            {
+                "item": "Copper cable",
+                "count": 5,
+                "id": "Copper_cable"
+            },
+            {
+                "item": "Electronic circuit",
+                "count": 2,
+                "id": "Electronic_circuit"
+            },
+            {
+                "item": "Iron plate",
+                "count": 5,
+                "id": "Iron_plate"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Programmable speaker",
+        "count": 1,
+        "id": "Programmable_speaker",
+        "time": 2,
+        "needed": [
+            {
+                "item": "Copper cable",
+                "count": 5,
+                "id": "Copper_cable"
+            },
+            {
+                "item": "Electronic circuit",
+                "count": 4,
+                "id": "Electronic_circuit"
+            },
+            {
+                "item": "Iron plate",
+                "count": 3,
+                "id": "Iron_plate"
+            },
+            {
+                "item": "Iron stick",
+                "count": 4,
+                "id": "Iron_stick"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Stone brick",
+        "count": 1,
+        "id": "Stone_brick",
+        "time": 3.2,
+        "needed": [
+            {
+                "item": "Stone",
+                "count": 2,
+                "id": "Stone"
+            }
+        ],
+        "producedIn": "Stone"
+    },
+    {
+        "item": "Concrete",
+        "count": 10,
+        "id": "Concrete",
+        "time": 10,
+        "needed": [
+            {
+                "item": "Iron ore",
+                "count": 1,
+                "id": "Iron_ore"
+            },
+            {
+                "item": "Stone brick",
+                "count": 5,
+                "id": "Stone_brick"
+            },
+            {
+                "item": "Water",
+                "count": 100,
+                "id": "Water"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Hazard concrete",
+        "count": 10,
+        "id": "Hazard_concrete",
+        "time": 0.25,
+        "needed": [
+            {
+                "item": "Concrete",
+                "count": 10,
+                "id": "Concrete"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Refined concrete",
+        "count": 10,
+        "id": "Refined_concrete",
+        "time": 15,
+        "needed": [
+            {
+                "item": "Concrete",
+                "count": 20,
+                "id": "Concrete"
+            },
+            {
+                "item": "Iron stick",
+                "count": 8,
+                "id": "Iron_stick"
+            },
+            {
+                "item": "Steel plate",
+                "count": 1,
+                "id": "Steel_plate"
+            },
+            {
+                "item": "Water",
+                "count": 100,
+                "id": "Water"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Refined hazard concrete",
+        "count": 10,
+        "id": "Refined_hazard_concrete",
+        "time": 0.25,
+        "needed": [
+            {
+                "item": "Refined concrete",
+                "count": 10,
+                "id": "Refined_concrete"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Landfill",
+        "count": 1,
+        "id": "Landfill",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Stone",
+                "count": 20,
+                "id": "Stone"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Cliff explosives",
+        "count": 1,
+        "id": "Cliff_explosives",
+        "time": 8,
+        "needed": [
+            {
+                "item": "Empty barrel",
+                "count": 1,
+                "id": "Empty_barrel"
+            },
+            {
+                "item": "Explosives",
+                "count": 10,
+                "id": "Explosives"
+            },
+            {
+                "item": "Grenade",
+                "count": 1,
+                "id": "Grenade"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    },
+    {
+        "item": "Repair pack",
+        "count": 1,
+        "id": "Repair_pack",
+        "time": 0.5,
+        "needed": [
+            {
+                "item": "Electronic circuit",
+                "count": 2,
+                "id": "Electronic_circuit"
+            },
+            {
+                "item": "Iron gear wheel",
+                "count": 2,
+                "id": "Iron_gear_wheel"
+            }
+        ],
+        "producedIn": "Assembling machine"
+    }
+]

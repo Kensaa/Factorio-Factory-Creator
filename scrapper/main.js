@@ -30,11 +30,15 @@ async function main(){
 
     fs.writeFileSync('links.json',JSON.stringify(links,null,4))
     let crafts = []
+    let i = 0;
+    //let link = links[64]
     for(let link of links){
-        await page.goto(link)
+        await page.goto(link,{timeout:0})
+        await wait(150)
         let craft = await page.evaluate(()=>{
             let $ = window.$;
             let infoDiv = $($('div[class="infobox"] > div[class="tabber tabberlive"] > div[class="tabbertab"] > table > tbody > tr')[1]).find('td')[0]
+            if(!infoDiv)return null
             let infos = $(infoDiv).find('div[class="factorio-icon"]').toArray()
             infos = infos.map(e=>{
                 let count = parseFloat($(e).find('div').text().trim())
@@ -46,19 +50,48 @@ async function main(){
             let finalItem = infos.pop()
             let time = infos.shift().count
 
-            let pb = $($('div[class="infobox"] > table > tbody > tr').toArray().pop()).find('td > div > a').toArray()
-            //console.log(pb);
-            let machineName = pb.shift().attributes.title.value.trim().split(' ')
-            machineName.pop()
-            machineName = machineName.join(' ')
+            let pb = $('div[class="infobox"] > table > tbody ')[0]
+
+            let subs = $(pb).find('tr').toArray()
+            let pbindex = null
+            let i = 0
+            for(let s of subs){
+                if(s.className == "border-top"){
+                    let title = $($(s).find('td')[0]).find('p').text().trim()
+                    if(title == "Produced by")pbindex = i
+                }
+                i++
+            }
+            console.log(pbindex);
+            let machineName = 'None'
+            if(pbindex){
+                let lines = $(pb).find('tr').toArray()
+                let machines = $(lines[pbindex+1]).find('td > div').toArray()
+                let firstMachine = machines.shift()
+                let machineName = $(firstMachine).find('a')[0].attributes.title.value.trim().split(' ')
+                machineName.pop()
+                machineName = machineName.join(' ')
+            }
+
+            
+
+           
 
             let obj = {...finalItem,time,needed:infos,producedIn:machineName}
-            console.log();
+            console.log(obj);
             return obj
         })
-        crafts.push(craft)
+        if(craft){
+            crafts.push(craft)
+        }
+        i++
+        console.log(i+' of '+links.length+' done');
+        fs.writeFileSync('crafts.json',JSON.stringify(crafts,null,4))
     }
-    fs.writeFileSync('crafts.json',JSON.stringify(crafts,null,4))
 }
 
 main();
+
+const wait = (millis) =>
+  new Promise((resolve) => setTimeout(resolve, millis))
+
