@@ -1,5 +1,6 @@
 :root {
     --main-bg: rgb(34, 34, 34);
+    --rf-bg: rgb(56, 55, 55);
     --text-color: white;
     --accent-color: #8b8171;
     --main-fonts: system-ui, sans-serif, 'Open Sans', Geneva, Verdana;
@@ -20,4 +21,15 @@ body{
 #root{
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.reactFlow{
+    background-color: var(--rf-bg);
+    height:70%;
+    flex-grow: 1;
 }

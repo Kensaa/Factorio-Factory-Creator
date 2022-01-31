@@ -21,8 +21,11 @@ export default class App extends Component {
 
   render() {
     return(
-      <div style={{ height: 300 }}>
-        <ReactFlow elements={this.elements} />
+      <div>
+        <div className='reactFlow'>
+          <ReactFlow elements={this.elements} nodesDraggable={false}/>
+        </div>
+
       </div>
     )
   }
