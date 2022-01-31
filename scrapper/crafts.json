@@ -11,6 +11,7 @@
                 "id": "Wood"
             }
         ],
+        "type": "container",
         "producedIn": "Assembling machine"
     },
     {
@@ -25,6 +26,7 @@
                 "id": "Iron_plate"
             }
         ],
+        "type": "container",
         "producedIn": "Assembling machine"
     },
     {
@@ -39,6 +41,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "container",
         "producedIn": "Assembling machine"
     },
     {
@@ -58,6 +61,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "storage-tank",
         "producedIn": "Assembling machine"
     },
     {
@@ -77,6 +81,7 @@
                 "id": "Iron_plate"
             }
         ],
+        "type": "transport-belt",
         "producedIn": "Assembling machine"
     },
     {
@@ -96,6 +101,7 @@
                 "id": "Transport_belt"
             }
         ],
+        "type": "transport-belt",
         "producedIn": "Assembling machine"
     },
     {
@@ -120,6 +126,7 @@
                 "id": "Lubricant"
             }
         ],
+        "type": "transport-belt",
         "producedIn": "Assembling machine 2"
     },
     {
@@ -139,6 +146,7 @@
                 "id": "Transport_belt"
             }
         ],
+        "type": "underground-belt",
         "producedIn": "Assembling machine"
     },
     {
@@ -158,6 +166,7 @@
                 "id": "Underground_belt"
             }
         ],
+        "type": "underground-belt",
         "producedIn": "Assembling machine"
     },
     {
@@ -182,6 +191,7 @@
                 "id": "Lubricant"
             }
         ],
+        "type": "underground-belt",
         "producedIn": "Assembling machine 2"
     },
     {
@@ -206,6 +216,7 @@
                 "id": "Transport_belt"
             }
         ],
+        "type": "splitter",
         "producedIn": "Assembling machine"
     },
     {
@@ -230,6 +241,7 @@
                 "id": "Splitter"
             }
         ],
+        "type": "splitter",
         "producedIn": "Assembling machine"
     },
     {
@@ -259,6 +271,7 @@
                 "id": "Lubricant"
             }
         ],
+        "type": "splitter",
         "producedIn": "Assembling machine 2"
     },
     {
@@ -278,6 +291,7 @@
                 "id": "Iron_plate"
             }
         ],
+        "type": "inserter",
         "producedIn": "Assembling machine"
     },
     {
@@ -302,6 +316,7 @@
                 "id": "Iron_plate"
             }
         ],
+        "type": "inserter",
         "producedIn": "Assembling machine"
     },
     {
@@ -326,6 +341,7 @@
                 "id": "Iron_plate"
             }
         ],
+        "type": "inserter",
         "producedIn": "Assembling machine"
     },
     {
@@ -350,6 +366,7 @@
                 "id": "Iron_plate"
             }
         ],
+        "type": "inserter",
         "producedIn": "Assembling machine"
     },
     {
@@ -369,6 +386,7 @@
                 "id": "Fast_inserter"
             }
         ],
+        "type": "inserter",
         "producedIn": "Assembling machine"
     },
     {
@@ -398,6 +416,7 @@
                 "id": "Iron_gear_wheel"
             }
         ],
+        "type": "inserter",
         "producedIn": "Assembling machine"
     },
     {
@@ -417,6 +436,7 @@
                 "id": "Stack_inserter"
             }
         ],
+        "type": "inserter",
         "producedIn": "Assembling machine"
     },
     {
@@ -436,6 +456,7 @@
                 "id": "Wood"
             }
         ],
+        "type": "electric-pole",
         "producedIn": "Assembling machine"
     },
     {
@@ -460,6 +481,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "electric-pole",
         "producedIn": "Assembling machine"
     },
     {
@@ -484,6 +506,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "electric-pole",
         "producedIn": "Assembling machine"
     },
     {
@@ -508,6 +531,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "electric-pole",
         "producedIn": "Assembling machine"
     },
     {
@@ -522,6 +546,7 @@
                 "id": "Iron_plate"
             }
         ],
+        "type": "pipe",
         "producedIn": "Assembling machine"
     },
     {
@@ -541,6 +566,7 @@
                 "id": "Pipe"
             }
         ],
+        "type": "pipe-to-ground",
         "producedIn": "Assembling machine"
     },
     {
@@ -565,6 +591,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "pump",
         "producedIn": "Assembling machine"
     },
     {
@@ -589,6 +616,7 @@
                 "id": "Stone"
             }
         ],
+        "type": "rail-planner",
         "producedIn": "Assembling machine"
     },
     {
@@ -618,6 +646,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "train-stop",
         "producedIn": "Assembling machine"
     },
     {
@@ -637,6 +666,7 @@
                 "id": "Iron_plate"
             }
         ],
+        "type": "rail-signal",
         "producedIn": "Assembling machine"
     },
     {
@@ -656,6 +686,7 @@
                 "id": "Iron_plate"
             }
         ],
+        "type": "rail-chain-signal",
         "producedIn": "Assembling machine"
     },
     {
@@ -680,6 +711,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "locomotive",
         "producedIn": "Assembling machine"
     },
     {
@@ -704,6 +736,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "cargo-wagon",
         "producedIn": "Assembling machine"
     },
     {
@@ -733,6 +766,7 @@
                 "id": "Storage_tank"
             }
         ],
+        "type": "fluid-wagon",
         "producedIn": "Assembling machine"
     },
     {
@@ -767,6 +801,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "artillery-wagon",
         "producedIn": "Assembling machine"
     },
     {
@@ -791,6 +826,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "car",
         "producedIn": "Assembling machine"
     },
     {
@@ -820,6 +856,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "car",
         "producedIn": "Assembling machine"
     },
     {
@@ -869,6 +906,7 @@
                 "id": "Rocket_launcher"
             }
         ],
+        "type": "spider-vehicle",
         "producedIn": "Assembling machine"
     },
     {
@@ -888,6 +926,7 @@
                 "id": "Rocket_control_unit"
             }
         ],
+        "type": "spidertron-remote",
         "producedIn": "Assembling machine"
     },
     {
@@ -907,6 +946,7 @@
                 "id": "Flying_robot_frame"
             }
         ],
+        "type": "logistic-robot",
         "producedIn": "Assembling machine"
     },
     {
@@ -926,6 +966,7 @@
                 "id": "Flying_robot_frame"
             }
         ],
+        "type": "construction-robot",
         "producedIn": "Assembling machine"
     },
     {
@@ -950,6 +991,7 @@
                 "id": "Steel_chest"
             }
         ],
+        "type": "logistic-container",
         "producedIn": "Assembling machine"
     },
     {
@@ -974,6 +1016,7 @@
                 "id": "Steel_chest"
             }
         ],
+        "type": "logistic-container",
         "producedIn": "Assembling machine"
     },
     {
@@ -998,6 +1041,7 @@
                 "id": "Steel_chest"
             }
         ],
+        "type": "logistic-container",
         "producedIn": "Assembling machine"
     },
     {
@@ -1022,6 +1066,7 @@
                 "id": "Steel_chest"
             }
         ],
+        "type": "logistic-container",
         "producedIn": "Assembling machine"
     },
     {
@@ -1046,6 +1091,7 @@
                 "id": "Steel_chest"
             }
         ],
+        "type": "logistic-container",
         "producedIn": "Assembling machine"
     },
     {
@@ -1070,6 +1116,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "roboport",
         "producedIn": "Assembling machine"
     },
     {
@@ -1094,6 +1141,7 @@
                 "id": "Iron_plate"
             }
         ],
+        "type": "lamp",
         "producedIn": "Assembling machine"
     },
     {
@@ -1113,6 +1161,7 @@
                 "id": "Electronic_circuit"
             }
         ],
+        "type": "item",
         "producedIn": "Assembling machine"
     },
     {
@@ -1132,6 +1181,7 @@
                 "id": "Electronic_circuit"
             }
         ],
+        "type": "item",
         "producedIn": "Assembling machine"
     },
     {
@@ -1151,6 +1201,7 @@
                 "id": "Electronic_circuit"
             }
         ],
+        "type": "arithmetic-combinator",
         "producedIn": "Assembling machine"
     },
     {
@@ -1170,6 +1221,7 @@
                 "id": "Electronic_circuit"
             }
         ],
+        "type": "decider-combinator",
         "producedIn": "Assembling machine"
     },
     {
@@ -1189,6 +1241,7 @@
                 "id": "Electronic_circuit"
             }
         ],
+        "type": "constant-combinator",
         "producedIn": "Assembling machine"
     },
     {
@@ -1213,6 +1266,7 @@
                 "id": "Iron_plate"
             }
         ],
+        "type": "power-switch",
         "producedIn": "Assembling machine"
     },
     {
@@ -1242,6 +1296,7 @@
                 "id": "Iron_stick"
             }
         ],
+        "type": "programmable-speaker",
         "producedIn": "Assembling machine"
     },
     {
@@ -1256,7 +1311,8 @@
                 "id": "Stone"
             }
         ],
-        "producedIn": "Stone furnace"
+        "type": "item",
+        "producedIn": "furnace"
     },
     {
         "item": "Concrete",
@@ -1280,6 +1336,7 @@
                 "id": "Water"
             }
         ],
+        "type": "tile",
         "producedIn": "Assembling machine 2"
     },
     {
@@ -1294,6 +1351,7 @@
                 "id": "Concrete"
             }
         ],
+        "type": "item",
         "producedIn": "Assembling machine"
     },
     {
@@ -1323,6 +1381,7 @@
                 "id": "Water"
             }
         ],
+        "type": "tile",
         "producedIn": "Assembling machine 2"
     },
     {
@@ -1337,6 +1396,7 @@
                 "id": "Refined_concrete"
             }
         ],
+        "type": "item",
         "producedIn": "Assembling machine"
     },
     {
@@ -1351,6 +1411,7 @@
                 "id": "Stone"
             }
         ],
+        "type": "tile",
         "producedIn": "Assembling machine"
     },
     {
@@ -1375,6 +1436,7 @@
                 "id": "Grenade"
             }
         ],
+        "type": "projectile",
         "producedIn": "Assembling machine"
     },
     {
@@ -1394,6 +1456,7 @@
                 "id": "Iron_gear_wheel"
             }
         ],
+        "type": "repair-tool",
         "producedIn": "Assembling machine"
     },
     {
@@ -1413,6 +1476,7 @@
                 "id": "Stone_furnace"
             }
         ],
+        "type": "boiler",
         "producedIn": "Assembling machine"
     },
     {
@@ -1437,6 +1501,7 @@
                 "id": "Pipe"
             }
         ],
+        "type": "generator",
         "producedIn": "Assembling machine"
     },
     {
@@ -1461,6 +1526,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "solar-panel",
         "producedIn": "Assembling machine"
     },
     {
@@ -1480,6 +1546,7 @@
                 "id": "Iron_plate"
             }
         ],
+        "type": "accumulator",
         "producedIn": "Assembling machine"
     },
     {
@@ -1509,6 +1576,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "reactor",
         "producedIn": "Assembling machine"
     },
     {
@@ -1528,6 +1596,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "heat-pipe",
         "producedIn": "Assembling machine"
     },
     {
@@ -1552,6 +1621,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "boiler",
         "producedIn": "Assembling machine"
     },
     {
@@ -1576,6 +1646,7 @@
                 "id": "Pipe"
             }
         ],
+        "type": "generator",
         "producedIn": "Assembling machine"
     },
     {
@@ -1600,6 +1671,7 @@
                 "id": "Stone_furnace"
             }
         ],
+        "type": "mining-drill",
         "producedIn": "Assembling machine"
     },
     {
@@ -1624,6 +1696,7 @@
                 "id": "Iron_plate"
             }
         ],
+        "type": "mining-drill",
         "producedIn": "Assembling machine"
     },
     {
@@ -1648,6 +1721,7 @@
                 "id": "Pipe"
             }
         ],
+        "type": "offshore-pump",
         "producedIn": "Assembling machine"
     },
     {
@@ -1677,6 +1751,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "mining-drill",
         "producedIn": "Assembling machine"
     },
     {
@@ -1691,6 +1766,7 @@
                 "id": "Stone"
             }
         ],
+        "type": "furnace",
         "producedIn": "Assembling machine"
     },
     {
@@ -1710,6 +1786,7 @@
                 "id": "Stone_brick"
             }
         ],
+        "type": "furnace",
         "producedIn": "Assembling machine"
     },
     {
@@ -1734,6 +1811,7 @@
                 "id": "Stone_brick"
             }
         ],
+        "type": "furnace",
         "producedIn": "Assembling machine"
     },
     {
@@ -1758,6 +1836,7 @@
                 "id": "Iron_plate"
             }
         ],
+        "type": "assembling-machine",
         "producedIn": "Assembling machine"
     },
     {
@@ -1787,6 +1866,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "assembling-machine",
         "producedIn": "Assembling machine"
     },
     {
@@ -1806,6 +1886,7 @@
                 "id": "Speed_module"
             }
         ],
+        "type": "assembling-machine",
         "producedIn": "Assembling machine"
     },
     {
@@ -1840,6 +1921,7 @@
                 "id": "Stone_brick"
             }
         ],
+        "type": "assembling-machine",
         "producedIn": "Assembling machine"
     },
     {
@@ -1869,6 +1951,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "assembling-machine",
         "producedIn": "Assembling machine"
     },
     {
@@ -1898,6 +1981,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "assembling-machine",
         "producedIn": "Assembling machine"
     },
     {
@@ -1922,6 +2006,7 @@
                 "id": "Transport_belt"
             }
         ],
+        "type": "lab",
         "producedIn": "Assembling machine"
     },
     {
@@ -1951,6 +2036,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "beacon",
         "producedIn": "Assembling machine"
     },
     {
@@ -1970,6 +2056,7 @@
                 "id": "Electronic_circuit"
             }
         ],
+        "type": "module",
         "producedIn": "Assembling machine"
     },
     {
@@ -1994,6 +2081,7 @@
                 "id": "Speed_module"
             }
         ],
+        "type": "module",
         "producedIn": "Assembling machine"
     },
     {
@@ -2018,6 +2106,7 @@
                 "id": "Speed_module_2"
             }
         ],
+        "type": "module",
         "producedIn": "Assembling machine"
     },
     {
@@ -2037,6 +2126,7 @@
                 "id": "Electronic_circuit"
             }
         ],
+        "type": "module",
         "producedIn": "Assembling machine"
     },
     {
@@ -2061,6 +2151,7 @@
                 "id": "Processing_unit"
             }
         ],
+        "type": "module",
         "producedIn": "Assembling machine"
     },
     {
@@ -2085,6 +2176,7 @@
                 "id": "Processing_unit"
             }
         ],
+        "type": "module",
         "producedIn": "Assembling machine"
     },
     {
@@ -2104,6 +2196,7 @@
                 "id": "Electronic_circuit"
             }
         ],
+        "type": "module",
         "producedIn": "Assembling machine"
     },
     {
@@ -2128,6 +2221,7 @@
                 "id": "Productivity_module"
             }
         ],
+        "type": "module",
         "producedIn": "Assembling machine"
     },
     {
@@ -2152,6 +2246,7 @@
                 "id": "Productivity_module_2"
             }
         ],
+        "type": "module",
         "producedIn": "Assembling machine"
     },
     {
@@ -2186,6 +2281,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "rocket-silo",
         "producedIn": "Assembling machine"
     },
     {
@@ -2225,6 +2321,7 @@
                 "id": "Solar_panel"
             }
         ],
+        "type": "item",
         "producedIn": "Assembling machine"
     },
     {
@@ -2239,6 +2336,7 @@
                 "id": "Heavy_oil"
             }
         ],
+        "type": "None",
         "producedIn": "Chemical plant"
     },
     {
@@ -2263,6 +2361,7 @@
                 "id": "Water"
             }
         ],
+        "type": "None",
         "producedIn": "Chemical plant"
     },
     {
@@ -2277,7 +2376,8 @@
                 "id": "Iron_ore"
             }
         ],
-        "producedIn": "Stone furnace"
+        "type": "item",
+        "producedIn": "furnace"
     },
     {
         "item": "Copper plate",
@@ -2291,7 +2391,8 @@
                 "id": "Copper_ore"
             }
         ],
-        "producedIn": "Stone furnace"
+        "type": "item",
+        "producedIn": "furnace"
     },
     {
         "item": "Steel plate",
@@ -2305,7 +2406,8 @@
                 "id": "Iron_plate"
             }
         ],
-        "producedIn": "Stone furnace"
+        "type": "item",
+        "producedIn": "furnace"
     },
     {
         "item": "Plastic bar",
@@ -2324,6 +2426,7 @@
                 "id": "Petroleum_gas"
             }
         ],
+        "type": "item",
         "producedIn": "Chemical plant"
     },
     {
@@ -2343,6 +2446,7 @@
                 "id": "Water"
             }
         ],
+        "type": "item",
         "producedIn": "Chemical plant"
     },
     {
@@ -2367,6 +2471,7 @@
                 "id": "Sulfuric_acid"
             }
         ],
+        "type": "item",
         "producedIn": "Chemical plant"
     },
     {
@@ -2391,6 +2496,7 @@
                 "id": "Water"
             }
         ],
+        "type": "item",
         "producedIn": "Chemical plant"
     },
     {
@@ -2410,6 +2516,7 @@
                 "id": "Uranium-235"
             }
         ],
+        "type": "None",
         "producedIn": "Centrifuge"
     },
     {
@@ -2424,6 +2531,7 @@
                 "id": "Copper_plate"
             }
         ],
+        "type": "item",
         "producedIn": "Assembling machine"
     },
     {
@@ -2438,6 +2546,7 @@
                 "id": "Iron_plate"
             }
         ],
+        "type": "item",
         "producedIn": "Assembling machine"
     },
     {
@@ -2452,6 +2561,7 @@
                 "id": "Iron_plate"
             }
         ],
+        "type": "item",
         "producedIn": "Assembling machine"
     },
     {
@@ -2471,6 +2581,7 @@
                 "id": "Iron_plate"
             }
         ],
+        "type": "item",
         "producedIn": "Assembling machine"
     },
     {
@@ -2495,6 +2606,7 @@
                 "id": "Plastic_bar"
             }
         ],
+        "type": "item",
         "producedIn": "Assembling machine"
     },
     {
@@ -2519,6 +2631,7 @@
                 "id": "Sulfuric_acid"
             }
         ],
+        "type": "item",
         "producedIn": "Assembling machine 2"
     },
     {
@@ -2543,6 +2656,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "item",
         "producedIn": "Assembling machine"
     },
     {
@@ -2567,6 +2681,7 @@
                 "id": "Lubricant"
             }
         ],
+        "type": "item",
         "producedIn": "Assembling machine 2"
     },
     {
@@ -2596,6 +2711,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "item",
         "producedIn": "Assembling machine"
     },
     {
@@ -2620,6 +2736,7 @@
                 "id": "Rocket_fuel"
             }
         ],
+        "type": "item",
         "producedIn": "Rocket silo"
     },
     {
@@ -2639,6 +2756,7 @@
                 "id": "Speed_module"
             }
         ],
+        "type": "item",
         "producedIn": "Assembling machine"
     },
     {
@@ -2663,6 +2781,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "item",
         "producedIn": "Assembling machine"
     },
     {
@@ -2682,6 +2801,7 @@
                 "id": "Solid_fuel"
             }
         ],
+        "type": "item",
         "producedIn": "Assembling machine 2"
     },
     {
@@ -2701,6 +2821,7 @@
                 "id": "Uranium-235"
             }
         ],
+        "type": "item",
         "producedIn": "Centrifuge"
     },
     {
@@ -2720,6 +2841,7 @@
                 "id": "Uranium-235"
             }
         ],
+        "type": "item",
         "producedIn": "Centrifuge"
     },
     {
@@ -2739,6 +2861,7 @@
                 "id": "Uranium-235"
             }
         ],
+        "type": "item",
         "producedIn": "Centrifuge"
     },
     {
@@ -2763,6 +2886,7 @@
                 "id": "Uranium-238"
             }
         ],
+        "type": "item",
         "producedIn": "Assembling machine"
     },
     {
@@ -2777,6 +2901,7 @@
                 "id": "Used_up_uranium_fuel_cell"
             }
         ],
+        "type": "None",
         "producedIn": "Centrifuge"
     },
     {
@@ -2801,6 +2926,7 @@
                 "id": "Uranium-235"
             }
         ],
+        "type": "None",
         "producedIn": "Centrifuge"
     },
     {
@@ -2815,6 +2941,7 @@
                 "id": "Uranium_fuel_cell"
             }
         ],
+        "type": "item",
         "producedIn": "Nuclear reactor"
     },
     {
@@ -2834,6 +2961,7 @@
                 "id": "Iron_gear_wheel"
             }
         ],
+        "type": "tool",
         "producedIn": "Assembling machine"
     },
     {
@@ -2853,6 +2981,7 @@
                 "id": "Transport_belt"
             }
         ],
+        "type": "tool",
         "producedIn": "Assembling machine"
     },
     {
@@ -2877,6 +3006,7 @@
                 "id": "Wall"
             }
         ],
+        "type": "tool",
         "producedIn": "Assembling machine"
     },
     {
@@ -2901,6 +3031,7 @@
                 "id": "Sulfur"
             }
         ],
+        "type": "tool",
         "producedIn": "Assembling machine"
     },
     {
@@ -2925,6 +3056,7 @@
                 "id": "Rail"
             }
         ],
+        "type": "tool",
         "producedIn": "Assembling machine"
     },
     {
@@ -2949,6 +3081,7 @@
                 "id": "Processing_unit"
             }
         ],
+        "type": "tool",
         "producedIn": "Assembling machine"
     },
     {
@@ -2968,6 +3101,7 @@
                 "id": "Iron_plate"
             }
         ],
+        "type": "gun",
         "producedIn": "Assembling machine"
     },
     {
@@ -2992,6 +3126,7 @@
                 "id": "Iron_plate"
             }
         ],
+        "type": "gun",
         "producedIn": "Assembling machine"
     },
     {
@@ -3021,6 +3156,7 @@
                 "id": "Wood"
             }
         ],
+        "type": "gun",
         "producedIn": "Assembling machine"
     },
     {
@@ -3050,6 +3186,7 @@
                 "id": "Wood"
             }
         ],
+        "type": "gun",
         "producedIn": "Assembling machine"
     },
     {
@@ -3074,6 +3211,7 @@
                 "id": "Iron_plate"
             }
         ],
+        "type": "gun",
         "producedIn": "Assembling machine"
     },
     {
@@ -3093,6 +3231,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "gun",
         "producedIn": "Assembling machine"
     },
     {
@@ -3112,6 +3251,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "land-mine",
         "producedIn": "Assembling machine"
     },
     {
@@ -3126,6 +3266,7 @@
                 "id": "Iron_plate"
             }
         ],
+        "type": "ammo",
         "producedIn": "Assembling machine"
     },
     {
@@ -3150,6 +3291,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "ammo",
         "producedIn": "Assembling machine"
     },
     {
@@ -3169,6 +3311,7 @@
                 "id": "Uranium-238"
             }
         ],
+        "type": "ammo",
         "producedIn": "Assembling machine"
     },
     {
@@ -3188,6 +3331,7 @@
                 "id": "Iron_plate"
             }
         ],
+        "type": "ammo",
         "producedIn": "Assembling machine"
     },
     {
@@ -3212,6 +3356,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "ammo",
         "producedIn": "Assembling machine"
     },
     {
@@ -3236,6 +3381,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "ammo",
         "producedIn": "Assembling machine"
     },
     {
@@ -3260,6 +3406,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "ammo",
         "producedIn": "Assembling machine"
     },
     {
@@ -3279,6 +3426,7 @@
                 "id": "Uranium-238"
             }
         ],
+        "type": "ammo",
         "producedIn": "Assembling machine"
     },
     {
@@ -3298,6 +3446,7 @@
                 "id": "Uranium-238"
             }
         ],
+        "type": "ammo",
         "producedIn": "Assembling machine"
     },
     {
@@ -3322,6 +3471,7 @@
                 "id": "Radar"
             }
         ],
+        "type": "ammo",
         "producedIn": "Assembling machine"
     },
     {
@@ -3346,6 +3496,7 @@
                 "id": "Iron_plate"
             }
         ],
+        "type": "projectile",
         "producedIn": "Assembling machine"
     },
     {
@@ -3365,6 +3516,7 @@
                 "id": "Rocket"
             }
         ],
+        "type": "projectile",
         "producedIn": "Assembling machine"
     },
     {
@@ -3389,6 +3541,7 @@
                 "id": "Uranium-235"
             }
         ],
+        "type": "ammo",
         "producedIn": "Assembling machine"
     },
     {
@@ -3408,6 +3561,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "ammo",
         "producedIn": "Chemical plant"
     },
     {
@@ -3427,6 +3581,7 @@
                 "id": "Iron_plate"
             }
         ],
+        "type": "projectile",
         "producedIn": "Assembling machine"
     },
     {
@@ -3451,6 +3606,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "projectile",
         "producedIn": "Assembling machine"
     },
     {
@@ -3475,6 +3631,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "projectile",
         "producedIn": "Assembling machine"
     },
     {
@@ -3499,6 +3656,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "projectile",
         "producedIn": "Assembling machine"
     },
     {
@@ -3523,6 +3681,7 @@
                 "id": "Piercing_rounds_magazine"
             }
         ],
+        "type": "projectile",
         "producedIn": "Assembling machine"
     },
     {
@@ -3542,6 +3701,7 @@
                 "id": "Defender_capsule"
             }
         ],
+        "type": "projectile",
         "producedIn": "Assembling machine"
     },
     {
@@ -3561,6 +3721,7 @@
                 "id": "Speed_module"
             }
         ],
+        "type": "projectile",
         "producedIn": "Assembling machine"
     },
     {
@@ -3575,6 +3736,7 @@
                 "id": "Iron_plate"
             }
         ],
+        "type": "armor",
         "producedIn": "Assembling machine"
     },
     {
@@ -3594,6 +3756,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "armor",
         "producedIn": "Assembling machine"
     },
     {
@@ -3613,6 +3776,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "armor",
         "producedIn": "Assembling machine"
     },
     {
@@ -3637,6 +3801,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "armor",
         "producedIn": "Assembling machine"
     },
     {
@@ -3671,6 +3836,7 @@
                 "id": "Speed_module_2"
             }
         ],
+        "type": "armor",
         "producedIn": "Assembling machine"
     },
     {
@@ -3695,6 +3861,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "solar-panel-equipment",
         "producedIn": "Assembling machine"
     },
     {
@@ -3714,6 +3881,7 @@
                 "id": "Processing_unit"
             }
         ],
+        "type": "generator-equipment",
         "producedIn": "Assembling machine"
     },
     {
@@ -3733,6 +3901,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "battery-equipment",
         "producedIn": "Assembling machine"
     },
     {
@@ -3757,6 +3926,7 @@
                 "id": "Processing_unit"
             }
         ],
+        "type": "battery-equipment",
         "producedIn": "Assembling machine"
     },
     {
@@ -3776,6 +3946,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "belt-immunity-equipment",
         "producedIn": "Assembling machine"
     },
     {
@@ -3800,6 +3971,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "movement-bonus-equipment",
         "producedIn": "Assembling machine"
     },
     {
@@ -3829,6 +4001,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "roboport-equipment",
         "producedIn": "Assembling machine"
     },
     {
@@ -3853,6 +4026,7 @@
                 "id": "Processing_unit"
             }
         ],
+        "type": "roboport-equipment",
         "producedIn": "Assembling machine"
     },
     {
@@ -3872,6 +4046,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "night-vision-equipment",
         "producedIn": "Assembling machine"
     },
     {
@@ -3891,6 +4066,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "energy-shield-equipment",
         "producedIn": "Assembling machine"
     },
     {
@@ -3915,6 +4091,7 @@
                 "id": "Processing_unit"
             }
         ],
+        "type": "energy-shield-equipment",
         "producedIn": "Assembling machine"
     },
     {
@@ -3939,6 +4116,7 @@
                 "id": "Processing_unit"
             }
         ],
+        "type": "active-defense-equipment",
         "producedIn": "Assembling machine"
     },
     {
@@ -3963,6 +4141,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "active-defense-equipment",
         "producedIn": "Assembling machine"
     },
     {
@@ -3977,6 +4156,7 @@
                 "id": "Electronic_circuit"
             }
         ],
+        "type": "capsule",
         "producedIn": "Assembling machine"
     },
     {
@@ -3991,6 +4171,7 @@
                 "id": "Stone_brick"
             }
         ],
+        "type": "wall",
         "producedIn": "Assembling machine"
     },
     {
@@ -4015,6 +4196,7 @@
                 "id": "Wall"
             }
         ],
+        "type": "gate",
         "producedIn": "Assembling machine"
     },
     {
@@ -4039,6 +4221,7 @@
                 "id": "Iron_plate"
             }
         ],
+        "type": "ammo-turret",
         "producedIn": "Assembling machine"
     },
     {
@@ -4063,6 +4246,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "electric-turret",
         "producedIn": "Assembling machine"
     },
     {
@@ -4092,6 +4276,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "fluid-turret",
         "producedIn": "Assembling machine"
     },
     {
@@ -4121,6 +4306,7 @@
                 "id": "Steel_plate"
             }
         ],
+        "type": "artillery-turret",
         "producedIn": "Assembling machine"
     },
     {
@@ -4140,6 +4326,7 @@
                 "id": "Radar"
             }
         ],
+        "type": "capsule",
         "producedIn": "Assembling machine"
     },
     {
@@ -4164,6 +4351,7 @@
                 "id": "Iron_plate"
             }
         ],
+        "type": "radar",
         "producedIn": "Assembling machine"
     }
 ]
