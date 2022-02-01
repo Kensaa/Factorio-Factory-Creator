@@ -41,9 +41,12 @@ export default class TreeTab extends Component {
     
       render() {
         return(
+          <div className='container tab treeTab'>
             <div className='reactFlow'>
-              <ReactFlow elements={this.state.elements} nodesDraggable={false}/>
+                <ReactFlow elements={this.state.elements} nodesDraggable={true}/>
             </div>
+          </div>
+            
     
         )
       }
