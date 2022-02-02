@@ -4,7 +4,7 @@ export default class SearchbarItem extends Component {
   render() {
     return (
     <div className='searchbarItem unselectable'>
-        test
+        {this.props.item.item}
     </div>
     );
   }

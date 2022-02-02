@@ -4,17 +4,8 @@ import ReactFlow from 'react-flow-renderer'
 export default class TreeTab extends Component {
     constructor(props){
         super(props)
-        this.state = {crafts:[],elements:[]}
+        this.state = {crafts:this.props.crafts,elements:[]}
         
-        this.fetchCrafts()
-      }
-    
-      fetchCrafts = ()=>{
-        fetch('crafts.json').then(res=>res.json().then(json=>{
-          this.setState({crafts:json},()=>{
-            this.init();
-          })
-        }));
       }
     
       init = ()=>{

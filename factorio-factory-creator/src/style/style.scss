@@ -84,14 +84,16 @@ body{
         margin-bottom: 1px;
     }
     & .searchbarItem{
-        height: 30px;
+        height: 50px;
         border: 1px var(--border-color) solid;
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: white;
+        text-align: center;
     }
     & .itemContainer{
-        
+        height: 300px;
+        overflow-y: auto;
     }
 }
