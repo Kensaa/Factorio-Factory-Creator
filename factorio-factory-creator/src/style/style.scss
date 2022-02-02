@@ -1,21 +1,33 @@
 :root {
     /*--main-bg: rgb(34, 34, 34);*/
-    --main-bg: rgb(200, 200, 200);
-    --border-color : black;
+    --background: #313031;
+    --text: #dddddd;
+    --accent: #d77a29;
+
+    --border-color: black;
     --sec-color: rgb();
     --rf-bg: rgb(56, 55, 55);
-    --text-color: black;
-    --main-fonts: system-ui, sans-serif, 'Open Sans', Geneva, Verdana;
-
+    --fonts: system-ui, sans-serif, "Open Sans", Geneva, Verdana;
 }
 
-body{
-    background-color: var(--main-bg);
-    font-family: var(--main-fonts);
-    color: var(--text-color);
+body {
+    background-color: var(--background);
+    font-family: var(--fonts);
+    color: var(--text);
+    box-sizing: border-box;
 }
 
-#root{
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+*:focus {
+    outline: 2px dotted var(--accent);;
+}
+
+#root {
     width: 100%;
     height: 100%;
     display: flex;
@@ -23,22 +35,21 @@ body{
     align-items: center;
 }
 
-.unselectable{
-    -webkit-user-select: none;     
+.unselectable {
+    -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
 }
 
-.reactFlow{
+.reactFlow {
     background-color: var(--rf-bg);
-    height:70%;
+    height: 70%;
     width: 70%;
     flex-grow: 1;
 }
 
-
-.container{
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,53 +58,58 @@ body{
     width: 100%;
 }
 
-.tab{
+.tab {
     justify-content: flex-start;
-    & .treeTab{
-
-    }
-    & .mainTab{
-
-    }
 }
 
-.titlebar{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.titlebar {
     width: 85%;
-    border-bottom: 2px var(--border-color) solid;
-    margin-bottom: 10px;
+    border-bottom: 2px var(--text) solid;
+    margin-bottom: 2rem;
 
-    & .title{
-        margin-top: 10px;
-        letter-spacing: 0.3rem;
+    & .title {
+        text-align: center;
+        color: var(--accent);
+        letter-spacing: 0.25rem;
     }
+
+    // UNUSED
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: center;
+    // align-items: center;
 }
 
-
-
-.searchbar{
+.searchbar {
     display: flex;
     flex-direction: column;
-    width: 25%;
-    & input{
+    width: 85%;
+    max-width: 600px;
+    & input {
         border: none;
-        height: 25px;
-        margin-bottom: 1px;
+        height: 2rem;
     }
-    & .searchbarItem{
+
+    & .itemContainer {
+        height: 300px;
+        overflow-y: auto;
+        border: 1px var(--text) solid;
+    }
+
+    & .searchbarItem {
         height: 50px;
-        border: 1px var(--border-color) solid;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: white;
+        
         text-align: center;
-    }
-    & .itemContainer{
-        height: 300px;
-        overflow-y: auto;
+
+        &:nth-child(even) {
+            background-color: rgba(255, 255, 255, 0.10);
+        }
+
+        &:nth-child(odd) {
+            background-color: rgba(255, 255, 255, 0.08);
+        }
     }
 }
