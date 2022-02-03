@@ -1,0 +1,1 @@
+export const fetchCrafts = () => fetch('crafts.json').then(res => res.json())

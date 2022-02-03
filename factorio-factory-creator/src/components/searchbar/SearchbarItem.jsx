@@ -1,12 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class SearchbarItem extends Component {
+const SearchbarItem = ({ item, itemClicked }) => (
+  <div className='searchbarItem unselectable' onClick={() => { itemClicked(item.id) }}>
+    {item.item}
+  </div>
+);
 
-  render() {
-    return (
-    <div className='searchbarItem unselectable' onClick={()=>{this.props.itemClicked(this.props.item.id)}}>
-        {this.props.item.item}
-    </div>
-    );
-  }
-}
+export default SearchbarItem;
