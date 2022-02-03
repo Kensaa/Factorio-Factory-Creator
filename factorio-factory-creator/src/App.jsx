@@ -27,7 +27,7 @@ export default class App extends Component {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<MainTab/>}/>
-          {/*<Route path="/tree" element={<TreeTab crafts={this.state.crafts}/>}/>*/}
+          <Route path="/tree" element={<TreeTab/>}/>
         </Routes>
       </BrowserRouter>
     </div>);

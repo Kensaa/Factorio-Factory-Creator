@@ -22,14 +22,11 @@ export default class Searchbar extends Component {
     }
 
     filterCrafts = ()=>{
-      console.log(this.state.crafts);
-      if(this.state.search ==''){
+      if(this.state.search === ''){
         this.setState({renderedElement:this.state.crafts,rendered:false})
       }else{
-        console.log('else');
         let filteredCrafts = this.state.crafts.filter((e)=>(e.item.toLowerCase().includes(this.state.search.toLowerCase())))
         this.setState({renderedElement:filteredCrafts,rendered:true})
-        console.log(filteredCrafts);
       }
     }
 
@@ -39,7 +36,7 @@ export default class Searchbar extends Component {
             <input className='searchbarInput' onChange={this.onInputChange}></input>
             {this.state.rendered ? 
             <div className='itemContainer'>
-              {this.state.renderedElement.map((e,i)=>(<SearchbarItem key={i} item={e}/>))}
+              {this.state.renderedElement.map((e,i)=>(<SearchbarItem key={i} itemClicked={(item)=>{this.props.onClick(this.props.id,item)}} item={e}/>))}
             </div> : ''
             }
         </div>

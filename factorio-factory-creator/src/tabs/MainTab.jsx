@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Searchbar from '../components/Searchbar';
+import Searchbar from '../components/searchbar/Searchbar';
 
 export default class MainTab extends Component {
   constructor(props){
@@ -16,13 +16,17 @@ export default class MainTab extends Component {
     }));
   }
 
+  seachbarSelect = (id,item)=>{
+    console.log('item "' +item+'" selected in "'+id+'"');
+  }
+
   render() {
     return (
-        <div className='container tab mainTab'>
+        <div className='container tab'>
           <div className="titlebar">
             <h1 className='title'>Factorio Factory Creator</h1>
           </div>
-          <Searchbar/>
+          <Searchbar id="test" onClick={this.seachbarSelect}/>
         </div>);
   }
 }
