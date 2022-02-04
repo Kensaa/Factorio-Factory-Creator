@@ -1,4 +1,4 @@
-import React,{Component} from 'react'
+import React, { Component } from 'react'
 import ReactFlow from 'react-flow-renderer'
 import { fetchCrafts } from '../utils/crafts'
 
@@ -7,11 +7,11 @@ export default class TreeTab extends Component {
   constructor(props) {
     super(props)
     this.state = { crafts: [], elements: [], toCraft: 'Satellite' }
-    fetchCrafts().then((res)=>{
-      this.setState({crafts:res},this.init)
+    fetchCrafts().then((res) => {
+      this.setState({ crafts: res }, this.init)
     })
 
-    
+
   }
 
   init = () => {
@@ -27,64 +27,62 @@ export default class TreeTab extends Component {
       'Coal',
       'Solid_fuel'
     ]
-    /*let elements = []
-    elements.push({
-      id: 'n1',
-      type: 'input',
-      data: { label: 'node 1' },
-      position: { x: 0, y: 0 }
-    })
-    elements.push({
-      id: 'n2',
-      type: 'output',
-      data: { label: 'node 2' },
-      position: { x: 200, y: 125 }
-    })
-    elements.push({ id: 'e1-2', source: 'n1', target: 'n2', type: 'smoothstep', animated: true })
+    /*    elements.push({
+          id: 'n1',
+          type: 'input',
+          data: { label: 'node 1' },
+          position: { x: 0, y: 0 }
+        })
+        elements.push({
+          id: 'n2',
+          type: 'output',
+          data: { label: 'node 2' },
+          position: { x: 200, y: 125 }
+        })
+        elements.push({ id: 'e1-2', source: 'n1', target: 'n2', type: 'smoothstep', animated: true })
+    */
 
 
 
-
-    this.setState({ elements })*/
 
     let craft = []
 
-    let startCraft = crafts.find((e)=>(e.id===toCraft))
+    let startCraft = crafts.find((e) => (e.id === toCraft))
     console.log(startCraft.id);
 
-    function findItem(id){
-      return crafts.find((e)=>(e.id===id))
+    function findItem(id) {
+      return crafts.find((e) => (e.id === id))
     }
 
-    function buildCraftTree(item,currentIndex=0,layer=0){
-      if(startRessources.includes(item))return;
-      if(craft.length === 0){
-        if(!craft[layer]){
+    function buildCraftTree(currentItem, currentIndex = 0, layer = 0) {
+      //stop condition
+      if (startRessources.includes(currentItem)) return;
+      //pushing the first craft (result) in the list
+      if (craft.length === 0) {
+        if (!craft[layer]) {
           craft[layer] = []
         }
         craft[layer].push({
-          id:item,
-          parent:{layer,index:currentIndex}
+          id: currentItem,
+          item: findItem(currentItem).item,
+
+          parent: { layer, index: currentIndex }
         })
       }
-      
 
-      console.log('input : '+item);
-      //
+      //adding currentItem's requirement to the layer above current item but with position of is parent 
       let index = 0
-      for(let neededItem of findItem(item).needed){
-        console.log(neededItem);
-        let neededItemID = neededItem.id
-        if(!craft[layer+1]){
-          craft[layer+1] = []
+      for (let neededItem of findItem(currentItem).needed) {
+        if (!craft[layer + 1]) {
+          craft[layer + 1] = []
         }
-        console.log(neededItem.name);
-        craft[layer+1].push(
+        craft[layer + 1].push(
           {
-            id:neededItemID,
-            parent:{layer,index:currentIndex}
+            ...neededItem,
+            //id:neededItem.id,
+            parent: { layer, index: currentIndex }
           })
-        buildCraftTree(neededItemID,index,layer+1)
+        buildCraftTree(neededItem.id, index, layer + 1)
         index++
       }
 
@@ -92,6 +90,40 @@ export default class TreeTab extends Component {
     buildCraftTree(startCraft.id)
     console.log('res : ');
     console.log(craft);
+
+    let elements = []
+
+    let l = 0
+    for (let layer of craft) {
+      let i = 0
+      for (let item of layer) {
+        elements.push({
+          id: 'n' + l + '-' + i,
+          type: 'default',
+          data: { label: item.item },
+          position: { x: i * 200 + 50, y: l * 200 + 50 }
+        })
+        if (!(i === 0 && l === 0)) {
+          console.log(item.parent.layer);
+          console.log(item.parent.index);
+          elements.push({
+            id: 'e' + i + ',' + l,
+            source: 'n' + item.parent.layer + '-' + item.parent.index,
+            target: 'n' + l + '-' + i,
+            type: 'normal-edge',
+            animated: false
+          })
+        }
+
+        i++
+      }
+      l++
+
+    }
+
+
+    this.setState({ elements })
+
   }
 
 
