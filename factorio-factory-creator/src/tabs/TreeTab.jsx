@@ -60,50 +60,53 @@ export default class TreeTab extends Component {
       return crafts.find((e) => (e.id === id))
     }
 
-    let indexMap = {}
-    let craft = []
-
-    function buildCraftTree(currentItem, currentIndex = 0, layer = 0) {
-      //init index map layer 
-      if(!indexMap[layer])indexMap[layer]=0
-      //console.log(indexMap);
-
-
-      //stop condition
-      if (startRessources.includes(currentItem)) return;
-
-      //pushing the first craft (result) in the list
-      if (craft.length === 0) {
-        if (!craft[layer]) {
-          craft[layer] = []
-        }
-        craft[layer].push({
-          id: currentItem,
-          item: findItem(currentItem).item,
-
-          parent: { layer, index: currentIndex }
-        })
-      }
-
-      //adding currentItem's requirement to the layer above current item but with position of is parent 
-      for (let neededItem of findItem(currentItem).needed) {
-        if (!craft[layer + 1]) {
-          craft[layer + 1] = []
-          indexMap[layer] = 0
-        }
-        craft[layer + 1].push(
-          {
-            ...neededItem,
-            self: { layer: layer + 1, id: neededItem.id, index:indexMap[layer] },
-            parent: { layer, id: currentItem, index: currentIndex }
+    function getCraftTree(itemToCraft){
+      let indexMap = {}
+      let craft = []
+  
+      function buildCraftTree(currentItemID, currentIndex = 0, layer = 0) {
+        //init index map layer 
+        if (!indexMap[layer]) indexMap[layer] = 0
+        //console.log(indexMap);
+  
+  
+        //stop condition
+        if (startRessources.includes(currentItemID)) return;
+  
+        //pushing the first craft (result) in the list
+        if (craft.length === 0) {
+          if (!craft[layer]) {
+            craft[layer] = []
+          }
+          craft[layer].push({
+            id: currentItemID,
+            count: 1,
+            item: findItem(currentItemID).item,
+  
+            parent: { layer, index: currentIndex }
           })
-        buildCraftTree(neededItem.id, indexMap[layer], layer + 1)
-        indexMap[layer] = indexMap[layer] + 1
+        }
+  
+        //adding currentItem's requirement to the layer above current item but with position of is parent 
+        for (let neededItem of findItem(currentItemID).needed) {
+          if (!craft[layer + 1]) {
+            craft[layer + 1] = []
+            indexMap[layer] = 0
+          }
+          craft[layer + 1].push(
+            {
+              ...neededItem,
+              parent: { layer, id: currentItemID, index: currentIndex }
+            })
+          buildCraftTree(neededItem.id, indexMap[layer], layer + 1)
+          indexMap[layer] = indexMap[layer] + 1
+        }
       }
-
+      buildCraftTree(itemToCraft.id)
+      return craft
     }
 
-    buildCraftTree(startCraft.id)
+    let craft = getCraftTree(startCraft)
 
     console.log('res : ');
     console.log(craft);
@@ -120,7 +123,7 @@ export default class TreeTab extends Component {
         elements.push({
           id: 'n' + l + '-' + i,
           type: 'default',
-          data: { label: (item.count ? item.count : 1)+' x '+item.item },
+          data: { label: item.count + ' x ' + item.item },
           position: { x: i * 200 + 50, y: l * 200 + 50 }
         })
         if (!(i === 0 && l === 0)) {
