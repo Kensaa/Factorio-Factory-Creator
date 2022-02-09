@@ -1,26 +1,34 @@
-import React, { useEffect, useState } from 'react';
+import React, { Component } from 'react'
 import Searchbar from '../components/searchbar/Searchbar';
 import { fetchCrafts } from '../utils/crafts'
+import {Navigate} from "react-router-dom";
+/*import { Redirect } from 'react-router'*/
 
-const MainTab = () => {
-  const [crafts, setCrafts] = useState([]);
 
-  useEffect(() => {
-    fetchCrafts().then(setCrafts)
-  }, []);
+/*export default MainTab;*/
 
-  const searchbarSelect = (id, item) => {
-    console.log(`Item ${item} selected in ${id}`);
+
+export default class MainTab extends Component {
+  constructor(props){
+    super(props)
+    this.state = {crafts:[],currentItem:'',redirect:''}
+    fetchCrafts().then((res)=>{this.setState({crafts:res})})
   }
 
-  return (
-    <div className='container tab'>
-      <div className="titlebar">
-        <h1 className='title'>Factorio Factory Creator</h1>
+  searchbarSelect = (id, item) => {
+    this.setState({currentItem:item},()=>{
+      this.setState({redirect:<Navigate to="/tree" state={{test:"test"}}/>})
+    })
+  }
+  render() {
+    return (
+      <div className='container tab'>
+        <div className="titlebar">
+          <h1 className='title'>Factorio Factory Creator</h1>
+        </div>
+        <Searchbar id="test" onClick={this.searchbarSelect} crafts={this.state.crafts}/>      
+        {this.state.redirect}
       </div>
-      <Searchbar id="test" onClick={searchbarSelect} crafts={crafts}/>
-    </div>
-  );
-};
-
-export default MainTab;
+    );
+  }
+}

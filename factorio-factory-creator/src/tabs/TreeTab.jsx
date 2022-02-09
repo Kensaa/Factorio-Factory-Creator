@@ -6,14 +6,14 @@ import { fetchCrafts } from '../utils/crafts'
 export default class TreeTab extends Component {
   constructor(props) {
     super(props)
-    this.state = { crafts: [], elements: [], toCraft: 'Assembling_machine_3' }
+    this.state = { crafts: [], elements: [], toCraft: 'Assembling_machine_3',count:5 }
     this.spaces = {
       x: 200,
       y: 200,
       offsetX: 50,
       offsetY: 50
     }
-
+    
     fetchCrafts().then((res) => {
       this.setState({ crafts: res }, this.init)
     })
@@ -108,8 +108,6 @@ export default class TreeTab extends Component {
 
     let craft = getCraftTree(startCraft)
 
-    console.log('res : ');
-    console.log(craft);
 
     let elements = []
 
@@ -161,50 +159,3 @@ export default class TreeTab extends Component {
     )
   }
 }
-
-/*
-
-const TreeTab = ()=>{
-  const [crafts, setCrafts] = useState([]);
-  const [elements, setElements] = useState([])
-
-  const toCraft = 'Transport_belt'
-
-  useEffect(() => {
-    fetchCrafts().then((res)=>{
-      setCrafts(res,);
-      init()
-    })
-  }, []);
-
-  const init = () => {
-    /*let elements = []
-    elements.push({
-      id: 'n1',
-      type: 'input',
-      data: { label: 'node 1' },
-      position: { x: 0, y: 0 }
-    })
-    elements.push({
-      id: 'n2',
-      type: 'output',
-      data: { label: 'node 2' },
-      position: { x: 200, y: 125 }
-    })
-    elements.push({ id: 'e1-2', source: 'n1', target: 'n2', type: 'smoothstep', animated: true })
-
-    setElements(elements)
-    console.log(crafts);
-    let craft = crafts.find((e)=>(e.id===toCraft))
-    console.log(craft);
-  }
-  return (
-    <div className='container tab'>
-      <div className='reactFlow'>
-        <ReactFlow elements={elements} nodesDraggable={true} />
-      </div>
-    </div>
-  )
-}
-
-export default TreeTab*/
