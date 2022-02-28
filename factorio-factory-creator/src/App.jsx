@@ -13,7 +13,7 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<MainTab />} />
-          <Route path="/tree" element={<TreeTab />} />
+          <Route path="/tree/:toCraft/:count/" element={<TreeTab />} />
         </Routes>
       </BrowserRouter>
     </div>
